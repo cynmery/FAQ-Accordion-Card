@@ -27,6 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
+<img src="./design/faq-accordion-card-screenshot.jpg" alt="final result screenshot" width="1020px" />
+
 ![](./design/faq-accordion-card-screenshot.jpg)
 
 
