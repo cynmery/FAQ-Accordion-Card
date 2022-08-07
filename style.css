@@ -333,6 +333,11 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+    
+    html{
+        all:unset;
+    }
+    
     body {
         padding-bottom: 0;
     }
