@@ -5,24 +5,29 @@
     font-family: "Kumbh Sans", sans-serif;
 }
 
+html{
+    /*height: 100%;*/
+}
+
 :root {
     font-size: 62.5%;
-    height: 100%;
-    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    background-repeat: no-repeat;
+    /*background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;*/
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100%;
     width: 100%;
     font-size: 1.2rem;
     color: black;
     position: relative;
     flex-direction: column;
-    padding-bottom: 2.5rem;
+    /*padding-bottom: 2.5rem;*/
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
 }
 
 .tab-text {
@@ -53,7 +58,7 @@ h1 {
 
 #container {
     height: 100%;
-    margin: auto;
+    padding-top:2.5rem;
     position: relative;
 }
 
@@ -161,8 +166,10 @@ input {
 }
 
 footer {
-    bottom: 0;
-    position: absolute;
+   /* bottom: 0;
+    position: absolute;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .attribution {
@@ -387,7 +394,7 @@ footer {
     h1 {
         text-align: center;
         position: static;
-        margin-top: -15rem;
+        margin-top: -17rem;
         margin-bottom: 1rem;
         width: 100%;
         font-size: 3.5rem;
